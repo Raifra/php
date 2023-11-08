@@ -1,0 +1,21 @@
+h1{
+    background-color: aqua;
+}
+
+p{
+    background-color: aquamarine;
+}
+
+#p2{
+    background-color: blue;
+}
+
+h2{
+    background-color: blueviolet;
+}
+
+.stilo {
+    background-color: burlywood;
+    height: 200px;
+    width: 600px;
+}
