@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    font-family: sans-serif;
+    font-size: 40px;
+}
+
+#div01{
+    width: 1fr; height: 100px;
+    border: rgba(0, 0, 0, 0.3) 3px solid;
+    background: scroll 1800px rgba(60, 255, 0, 0.5);
+    background: url("img02.jpeg") no-repeat;
+    background-position: 94%;
+    background-size: 80px;
+}
+
+#Site{
+    border: rgba(0, 0, 0, 0.8) 3px solid ;
+    margin: 25px 90px;
+    width: 400px;
+    text-align: center;
+    background-color: rgba(37, 36, 30, 0.1);
+}
+
+#div02{
+    width: 1fr;
+    height: 90vh;
+    background-color: rgb(255, 255, 0);
+}
