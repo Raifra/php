@@ -1,0 +1,85 @@
+*{
+    margin: 0,5;
+    font-family: sans-serif;
+    font-size: 40px;
+}
+
+#div01{
+    height: 200px;
+    background-color: aquamarine;
+    color:brown;
+    border: rgba(0, 0, 0, 0.3) 3px solid; 
+    text-align: center;
+    background-position: 94%;
+       
+}
+
+#web{
+    border: rgba(0, 0, 0, 0.8) 3px solid;
+    margin: 25px 90px;
+    width: 400px;
+    background-color:azure;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto; 
+    margin-top: 87px;   
+
+}
+
+#div02{
+    background-color: yellow;
+    height: 800px;
+    border:  rgba(0, 0, 0, 0.3) 3px solid; 
+    margin: 1px;
+}
+
+#cont{
+    background-color: brown;
+    border:rgba(0, 0, 0, 0.3) 3px solid;
+    margin: 20px;
+    font-size: 20px;    
+
+}
+
+#ep{
+    height: 38px;
+    width: 300px;
+    background-color:blueviolet ;
+    border: rgba(0, 0, 0, 0.8) 3px solid;
+    margin: 20px;
+    margin-top: 5px; 
+    font-size: 20px;
+    
+ }
+
+ #des{
+    height: 38px;
+    width: 300px;
+    background-color:blue ;
+    border: rgba(0, 0, 0, 0.8) 3px solid;
+    margin: 20px;
+    margin-top: 5px; 
+    font-size: 15px;
+   
+ }
+
+ #es{
+    height: 38px;
+    width: 300px;
+    background-color: darkred ;
+    border: rgba(0, 0, 0, 0.8) 3px solid;
+    margin: 330px;
+    margin-top: 5px; 
+    font-size: 15px;
+ }
+#not{
+    height: 38px;
+    width: 300px;
+    background-color:aquamarine ;
+    border: rgba(0, 0, 0, 0.8) 3px solid;
+    margin: 40px;
+    margin-left: 700px;
+    margin-right: 100px; 
+    margin-top: 10px;
+    font-size: 15px;
+}
