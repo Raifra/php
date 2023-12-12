@@ -1,0 +1,42 @@
+.box{
+    height: 650px;
+    display: grid;
+    grid-template-areas: 
+                       "meu-web meu-web meu-web" 
+                       "titulo traducao site"
+
+    ;
+
+    grid-template-rows: 50px 1fr 50px;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.meu-web h1{
+    text-align: center;
+    margin-top: 5px;
+    border: 3px solid;
+    width: 45px;
+   
+  
+    
+}
+.meu-web{
+    background-color:brown;
+    grid-area: meu-web;
+}
+
+.titulo{
+      background-color: aquamarine;
+      grid-area: titulo;
+}
+
+.traducao{
+    background-color: crimson;
+    grid-area: traducao;
+}
+
+.site{
+    background-color: blue;
+    grid-area: site;
+}
+

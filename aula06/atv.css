@@ -1,0 +1,33 @@
+.box{
+    height: 1fr;
+    display: grid;
+    grid-template-areas:  
+        "titulo  titulo"
+        "texte    preto"
+        "borro  borro "
+        ;
+
+   grid-template-rows: 70px  60px;
+   grid-template-columns: 1fr 900px;
+        
+}
+
+.titulo{
+    background-color: aqua;
+    grid-area: titulo;
+}
+
+.texte{
+    background-color: brown;
+    grid-area: texte;
+}
+.preto{
+    background-color: crimson;
+    grid-area: preto;
+}
+
+.borro{
+    background-color: aqua;
+    grid-area: borro;
+}
+
