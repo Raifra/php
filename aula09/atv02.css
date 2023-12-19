@@ -1,0 +1,69 @@
+.box{
+    height: 1000px;
+    background-color:blueviolet;
+    display: grid;
+    grid-template-areas: "topo topo"
+                         "cont  lateral"
+                         "rod rod";
+    grid-template-rows: 150px 1fr 150px;
+    grid-template-columns: 1fr 150px;
+}
+
+.titulo{
+    background-color:blue ;
+    grid-area: topo;
+    text-align: center;
+    padding-top: 60px;
+}
+
+.conteudo{
+    background-color:chocolate;
+    grid-area: cont;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+
+}
+
+.C1, .C2, .C3 {
+    background-color:darkgreen;
+    width: 100%;
+    height:33.33% ;
+
+}
+
+.C2{
+    background-color:  darkblue ;
+    
+}
+
+.rodape{
+    background-color:brown;
+    grid-area: rod;
+    text-align: center;
+    display: flex;
+    
+}
+
+.p1, .p2, .p3 {
+    background-color: antiquewhite;
+    height: 100%;
+    width: 33.33%;
+
+    
+}
+
+
+
+.p2{
+    background-color: yellow;
+    width: 50%;
+}
+
+.lateral {
+    background-color:aqua;
+    grid-area: lateral;
+    text-align: center;
+    padding-top: 160px;
+
+}
