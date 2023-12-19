@@ -1,0 +1,161 @@
+*{
+    margin:0;
+}
+.bady{
+    font-size: ;
+
+}
+.box{
+    background-color: lightblue;
+    display: grid;
+    height: 1000px;
+    font-size: 30px;
+   
+   
+    grid-template-areas: "titulo titulo titulo"
+                            "menu conteudo maim"
+                            "footer footer footer";
+    grid-template-columns: 80px 1fr 200px;
+    grid-template-rows: 100px 1fr 90px;
+
+   
+}
+
+.titulo{
+    background-color:blueviolet;
+    border: blue solid 3px;
+    grid-area: titulo;
+    text-align: center;
+    font-size: 40px;
+    padding-top: 30px;
+    
+}
+.menu{
+    background-color: cadetblue;
+    border: blue solid 3px;
+    grid-area: menu;
+    text-align: center;
+    display: grid;
+
+    grid-template-areas: 
+                       "CE1"
+                       "CE2"
+                       "CE3";
+    grid-template-rows: 150px 1fr 150px;
+    
+}
+
+.menu .CE1{
+    grid-area: CE1;
+    background-color: brown;
+    padding-top: 60px;
+    
+}
+
+.menu .CE2{
+    grid-area: CE2;
+    background-color: chartreuse;
+    padding-top: 270px;
+}
+
+.menu .CE3{
+    grid-area: CE3;
+    background-color:bisque;
+    padding-top: 60px;
+}
+.conteudo{
+    background-color: lightblue;
+    border: darkblue solid 3px;
+    grid-area: conteudo;
+    text-align: center;
+    padding-top: 400px;
+    font-size: 40px;
+}
+.maim{
+    background-color:aquamarine;
+    border: blue solid 3px;
+    grid-area: maim;
+    text-align: center;
+    display: grid;
+    grid-template-areas: 
+                        "p2 h1" 
+                        "p3 p"
+                        "p4 p1"
+                        "p5 p6";
+grid-template-rows: 150px  200px;
+grid-template-columns: 1fr 1fr ;
+}
+
+.maim .p2{
+    grid-area: p2;
+    background-color: coral;
+    padding-top: 60px;
+   
+}
+
+.maim .p3{
+    grid-area: p3;
+    background-color: cyan;
+    padding-top: 90px;
+    
+}
+
+.maim .p4{
+    grid-area: p4;
+    background-color: darkgreen;
+    padding-top: 100px;
+}
+
+.maim .p5{
+    grid-area: p5;
+    background-color: fuchsia;
+    padding-top: 100px;
+}
+
+.maim .h1{
+    grid-area: h1;
+    background-color: khaki;
+    padding-top: 60px;
+
+}
+
+.maim .p6{
+    grid-area: p6;
+    background-color: maroon;
+    padding-top: 100px;
+}
+
+.maim .p{
+    grid-area: p;
+    background-color: yellow;
+    padding-top: 90px;
+}
+
+.maim .p1{
+    background-color: blue;
+    padding-top: 90px;
+}
+.maim .h1 h1{
+    background-color: olive;
+    
+}
+.maim .p2 p{
+    background-color: aquamarine;
+    
+}
+
+.maim .p3 p{
+    background-color: crimson;
+}
+
+.maim .p p{
+    background-color: rgb(240, 120, 140);
+}
+.footer{
+    background-color: aqua;
+    border: blue solid 3px;
+    grid-area: footer;
+    text-align: center;
+    padding-top: 40px;
+}
+
